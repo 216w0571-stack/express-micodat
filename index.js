@@ -87,4 +87,7 @@ app.use("/imagenes", imagenesRouter(db, uploadDir));
 // Servir archivos estáticos
 app.use("/uploads", express.static(uploadDir));
 
-export default app;
+// Iniciar servidor
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+});
