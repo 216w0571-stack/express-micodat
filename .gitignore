@@ -1,0 +1,10 @@
+# Ignorar dependencias y archivos temporales
+node_modules/
+uploads/
+
+# Ignorar archivos de frontend
+index.html
+subirimagen.jsx
+vite.config.js
+src/*   # si tienes frontend dentro de src
+dist/
