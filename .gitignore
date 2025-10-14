@@ -1,13 +1,3 @@
-
-# Ignorar archivos de frontend
-index.html
-subirimagen.jsx
-vite.config.js
-src/*   # si tienes frontend dentro de src
-dist/
-.vercel
-
-
 # Node.js
 node_modules/
 npm-debug.log*
